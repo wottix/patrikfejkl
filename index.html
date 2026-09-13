@@ -1,76 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patrik Fejkl</title>
-    <meta
-      name="description"
-      content="Patrik Fejkl — an independent creative portfolio and personal website."
-    />
+    <meta name="description" content="Patrik Fejkl — herní designer a multimediální umělec." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Syne+Mono&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="topbar">
-      <div class="brand">Patrik Fejkl</div>
+      <a class="brand" href="#top">PF<span>/</span>26</a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#work">Tvorba</a>
+        <a href="#about">O mně</a>
+        <a href="#contact">Kontakt</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <p class="eyebrow">Artist & designer</p>
+      <section class="hero" id="top">
+        <p class="eyebrow">Herní designer / multimediální umělec</p>
         <h1>Patrik Fejkl</h1>
         <p class="intro">
-          I create visual work shaped by observation, materiality, and emotion —
-          blending art direction, design, and contemporary storytelling.
+          Patrik Fejkl je herní designer a multimediální umělec. Věnuje se tvorbě
+          interaktivních instalací, deskových a digitálních her. Jeho díla mají
+          humorné podání, ale zasahují do problematiky moderní společnosti a
+          internetu. Často v praxi navazuje na znalosti v oboru grafického designu.
         </p>
+        <div class="hero-mark" aria-hidden="true">↘</div>
       </section>
 
       <section id="work" class="projects">
-        <div class="section-label">Selected work</div>
+        <div class="section-label"><span>01</span> Vybraná tvorba</div>
 
         <article class="project-row">
-          <span class="index">01</span>
+          <span class="index">A</span>
           <div class="project-copy">
-            <h2>Visual identities</h2>
-            <p>Custom art direction, type-led systems, and expressive identities for culture and commerce.</p>
+            <h2>Interaktivní instalace</h2>
+            <p>Prostor, obrazovka a divák v jednom systému. Hravé situace, které se mění podle toho, kdo se dívá.</p>
           </div>
         </article>
 
         <article class="project-row">
-          <span class="index">02</span>
+          <span class="index">B</span>
           <div class="project-copy">
-            <h2>Editorial design</h2>
-            <p>Minimal layouts and visual narratives designed with rhythm, clarity, and atmosphere.</p>
+            <h2>Deskové hry</h2>
+            <p>Pravidla jako designový materiál. Společenské hry s vlastním tempem, humorem a nečekaným konfliktem.</p>
           </div>
         </article>
 
         <article class="project-row">
-          <span class="index">03</span>
+          <span class="index">C</span>
           <div class="project-copy">
-            <h2>Art direction</h2>
-            <p>Creative concepts and visual storytelling that give ideas a distinct emotional presence.</p>
+            <h2>Digitální hry</h2>
+            <p>Malé virtuální světy, ve kterých se grafický design potkává s příběhem, kódem a absurditou.</p>
           </div>
         </article>
       </section>
 
       <section id="about" class="about">
-        <div class="section-label">About</div>
+        <div class="section-label"><span>02</span> O mně</div>
         <p>
-          Patrik Fejkl is an artist and designer working across visual communication,
-          identity, and contemporary design. The practice is rooted in form, texture,
-          and the idea that every project should feel deeply intentional.
+          Humor není únik. Je to způsob, jak se dívat blíž. Ve své práci propojuji
+          grafický design, herní principy a nové technologie, abych zkoumal, jak
+          společnost funguje online i mimo něj.
         </p>
       </section>
     </main>
 
     <footer id="contact" class="footer">
-      <div class="section-label">Contact</div>
-      <a href="mailto:hello@patrikfejkl.com">hello@patrikfejkl.com</a>
+      <div class="section-label"><span>03</span> Kontakt</div>
+      <a class="contact-link" href="mailto:hello@patrikfejkl.com">hello@patrikfejkl.com <span>↗</span></a>
     </footer>
   </body>
 </html>
